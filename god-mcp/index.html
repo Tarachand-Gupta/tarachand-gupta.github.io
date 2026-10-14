@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Turn anything into MCP. God MCP turns agent-authored integrations into local Python MCP servers and connects them to the coding agents you choose.">
+  <meta property="og:title" content="God MCP — Turn anything into MCP.">
+  <meta property="og:description" content="An API. A script. Your workflow. Give your coding agent the tools it needs, with source you own and hosts you choose.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://tarachand-gupta.github.io/god-mcp/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23141414'/%3E%3Cpath d='M24 18H14v28h10M40 18h10v28H40M32 23v18M23 32h18' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
+  <title>God MCP — Turn anything into MCP.</title>
+  <link rel="stylesheet" href="style.css?v=0813135c8b24">
+  <script src="app.js?v=1c6c450156c3" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="header">
+      <a class="brand" href="./" aria-label="God MCP home"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect width="40" height="40" rx="9" fill="currentColor"/><path d="M15 11H9v18h6m10-18h6v18h-6M20 14v12m-6-6h12" stroke="#fff" stroke-width="2"/></svg><span>God MCP</span></a>
+      <nav aria-label="Main navigation"><a class="portfolio-link" href="../#projects">By Tarachand Gupta</a><a class="nav-source" href="https://github.com/Tarachand-Gupta/god-mcp" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="main">
+      <div class="intro">
+        <p class="eyebrow"><span class="open-mark" aria-hidden="true"></span>Open-source agent tooling</p>
+        <h1>Turn anything<br>into <span class="mcp-word">MCP<span class="period">.</span></span></h1>
+        <p class="lead">An API. A script. Your workflow.<br>Give your agent the tool it’s missing.</p>
+        <p class="explanation">Your agent writes the integration. God MCP builds the server and connects it to the agents you choose.</p>
+        <div class="actions"><a class="button" href="https://github.com/Tarachand-Gupta/god-mcp#quick-start" target="_blank" rel="noopener noreferrer">Get God MCP <span aria-hidden="true">↗</span></a><a class="source-link" href="https://github.com/Tarachand-Gupta/god-mcp" target="_blank" rel="noopener noreferrer">Explore the code <span aria-hidden="true">↗</span></a></div>
+        <p class="requirements">Python 3.10+ · uv · An MCP-capable agent</p>
+      </div>
+      <section class="walkthrough" aria-labelledby="demo-title">
+        <div class="demo-heading"><h2 id="demo-title">From idea to tool</h2><span>Interactive walkthrough</span></div>
+        <div class="example-tabs" role="tablist" aria-label="Choose a tool example">
+          <button id="example-api" role="tab" aria-selected="true" aria-controls="example-panel" data-example="api" tabindex="0">An API</button>
+          <button id="example-script" role="tab" aria-selected="false" aria-controls="example-panel" data-example="script" tabindex="-1">A script</button>
+          <button id="example-workflow" role="tab" aria-selected="false" aria-controls="example-panel" data-example="workflow" tabindex="-1">A workflow</button>
+        </div>
+        <div class="example-panel" id="example-panel" role="tabpanel" aria-labelledby="example-api" tabindex="0">
+          <div class="step step-define"><span class="step-number">01</span><div><h3>Describe what you need</h3><p id="example-prompt">“Let my agent check a package’s delivery status.”</p></div></div>
+          <div class="connector" aria-hidden="true"><i></i></div>
+          <div class="step step-build"><span class="step-number">02</span><div><h3>Make it a tool</h3><p class="step-detail">Agent-authored code → Python MCP server</p><div class="tool-signature"><span aria-hidden="true">ƒ</span><code id="example-tool">track_delivery(id)</code><span class="file-type">.py</span></div></div></div>
+          <div class="connector" aria-hidden="true"><i></i></div>
+          <div class="step step-connect"><span class="step-number">03</span><div><h3>Bring it to your agents</h3><div class="agent-chips"><span>Codex</span><span>Pi</span><span>+6 adapters</span></div><p class="step-detail">Preview installation. Keep existing settings.</p></div></div>
+        </div>
+        <div class="demo-footer"><span class="demo-status" aria-live="polite" id="example-status">Illustrative example · Delivery API</span><a href="https://github.com/Tarachand-Gupta/god-mcp#how-it-works" target="_blank" rel="noopener noreferrer" aria-label="Read how God MCP works on GitHub">How it works <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+    <footer><p>Local source. Open protocol. Your choice of agent.</p><div><span>Python / FastMCP</span><a href="https://github.com/Tarachand-Gupta/god-mcp/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT licensed <span aria-hidden="true">↗</span></a></div></footer>
+  </div>
+</body>
+</html>
